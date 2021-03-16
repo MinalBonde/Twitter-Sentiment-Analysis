@@ -1,7 +1,7 @@
 # Twitter-Sentiment-Analysis
 Please follow below steps to execute this project :
-1) Download zoopkeeper, kafka, elastic search , kibana :
-2) Start the servers in the given sequence below :
+1) Download zoopkeeper, kafka, elastic search , kibana : \n
+2) Start the servers in the given sequence below :  \n
   Use below command to Start ZooKeeper: 
   cd C:\kafka .\bin\windows\zookeeper-server-start.bat .\config\zookeeper.properties
 
