@@ -6,11 +6,11 @@ Please follow below steps to execute this project :
       a) Use below command to Start ZooKeeper <br />
       &nbsp;&nbsp;&nbsp;&nbsp;cd C:\kafka .\bin\windows\zookeeper-server-start.bat .\config\zookeeper.properties  <br />
       b) Use below command to Start kafka-Server <br />
-            cd C:\kafka .\bin\windows\kafka-server-start.bat .\config\server.properties  \
+      &nbsp;&nbsp;&nbsp;&nbsp;cd C:\kafka .\bin\windows\kafka-server-start.bat .\config\server.properties  \
       c) Use below command to start Elastic-Search(Run as Admin)\
-            cd C:\elastic_stack\elasticsearch-7.9.3-windows-x86_64\elasticsearch-7.9.3\bin>elasticsearch.bat  \
+      &nbsp;&nbsp;&nbsp;&nbsp;cd C:\elastic_stack\elasticsearch-7.9.3-windows-x86_64\elasticsearch-7.9.3\bin>elasticsearch.bat  \
       d) Use below command to start Kibana(Run as Admin)\
-            cd C:\elastic_stack\kibana-7.2.0-windows-x86_64\kibana-7.2.0-windows-x86_64\bin>kibana.bat 
+      &nbsp;&nbsp;&nbsp;&nbsp;cd C:\elastic_stack\kibana-7.2.0-windows-x86_64\kibana-7.2.0-windows-x86_64\bin>kibana.bat 
 
 3) Run Producer
 Run command:- python Sentiment_Analysis_Producer.py on UTD CS Linux Servers / Anaconda Prompt/Command Prompt
