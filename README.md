@@ -10,7 +10,7 @@ Please follow below steps to execute this project :
       c) Use below command to start Elastic-Search(Run as Admin)\
          cd C:\elastic_stack\elasticsearch-7.9.3-windows-x86_64\elasticsearch-7.9.3\bin>elasticsearch.bat  \
       d) Use below command to start Kibana(Run as Admin)\
-         cd C:\elastic_stack\kibana-7.2.0-windows-x86_64\kibana-7.2.0-windows-x86_64\bin>kibana.bat  \
+         cd C:\elastic_stack\kibana-7.2.0-windows-x86_64\kibana-7.2.0-windows-x86_64\bin>kibana.bat 
 
 3) Run Producer
 Run command:- python Sentiment_Analysis_Producer.py on UTD CS Linux Servers / Anaconda Prompt/Command Prompt
