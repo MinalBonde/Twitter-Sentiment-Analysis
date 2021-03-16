@@ -4,7 +4,7 @@ Please follow below steps to execute this project :
 2) Start the servers in the given sequence below : 
 
       a) Use below command to Start ZooKeeper\
-            cd C:\kafka .\bin\windows\zookeeper-server-start.bat .\config\zookeeper.properties  \
+                  cd C:\kafka .\bin\windows\zookeeper-server-start.bat .\config\zookeeper.properties  \
       b) Use below command to Start kafka-Server\
             cd C:\kafka .\bin\windows\kafka-server-start.bat .\config\server.properties  \
       c) Use below command to start Elastic-Search(Run as Admin)\
