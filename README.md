@@ -3,9 +3,9 @@ Please follow below steps to execute this project :
 1) Download zoopkeeper, kafka, elastic search , kibana. 
 2) Start the servers in the given sequence below : 
 
-      Use below command to Start ZooKeeper:    \n
+      a) Use below command to Start ZooKeeper
             cd C:\kafka .\bin\windows\zookeeper-server-start.bat .\config\zookeeper.properties
-      Use below command to Start kafka-Server 
+      b) Use below command to Start kafka-Server 
             cd C:\kafka .\bin\windows\kafka-server-start.bat .\config\server.properties
       Use below command to start Elastic-Search(Run as Admin)
             cd C:\elastic_stack\elasticsearch-7.9.3-windows-x86_64\elasticsearch-7.9.3\bin>elasticsearch.bat
