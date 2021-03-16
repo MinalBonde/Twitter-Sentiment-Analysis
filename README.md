@@ -15,12 +15,12 @@ Please follow below steps to execute this project :
   Use below command to start Kibana(Run as Admin): 
   cd C:\elastic_stack\kibana-7.2.0-windows-x86_64\kibana-7.2.0-windows-x86_64\bin>kibana.bat
 
-3)Run Producer
+3) Run Producer
 Run command:- python Sentiment_Analysis_Producer.py on UTD CS Linux Servers / Anaconda Prompt/Command Prompt
 
-4)Run Consumer
+4) Run Consumer
 Run command:- python Sentiment_Analysis_Consumer.py on UTD CS Linux Servers / Anaconda Prompt/Command Prompt
 
-5)for visualization in kibana please find your localhost port for kibana: usually its 5601 -> localhost:5601/
+5) for visualization in kibana please find your localhost port for kibana: usually its 5601 -> localhost:5601/
 search for the index you have created in elastic search engine. In my case this part can be found in "consumer.py" with value "elastictweet".
 You can choose the type of chart for visualization.
